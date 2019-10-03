@@ -6,14 +6,6 @@ import java.util.Arrays;
  * Hello world!
  */
 public class App {
-
-
-
-
-
-
-
-    
     public static boolean comp(int[] a, int[] b) {
         if (a == null || b == null) return false;
         if (a.length == 0 && b.length == 0) return true;
