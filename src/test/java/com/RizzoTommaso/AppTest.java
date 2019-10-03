@@ -86,7 +86,7 @@ public class AppTest
     }
     @Test
     public void test3a() {
-        int[] a = new int[]{3, 4};
+        int[] a = new int[]{3, 5};
         int[] b = {0, 25};
         assertEquals(false, App.comp(a, b));
     }
